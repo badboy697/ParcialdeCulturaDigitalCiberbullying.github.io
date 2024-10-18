@@ -1,0 +1,124 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #b6e6f9;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: none;
+    margin-top: 10px;
+}
+
+button.toggle-btn {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+    margin-top: 15px;
+}
+
+button.toggle-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button.toggle-btn:active {
+    transform: scale(1.02);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2e6689;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 4px solid #b6e6f9;
+    margin-top: 30px;
+}
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.footer-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .footer-content p {
+        font-size: 1em;
+    }
+}
